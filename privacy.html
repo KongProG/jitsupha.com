@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>นโยบายความเป็นส่วนตัว (Privacy Policy) - หมากฮอสไทย AI</title>
+  <meta name="description" content="นโยบายความเป็นส่วนตัวและข้อตกลงการใช้งานของแอปพลิเคชัน หมากฮอสไทย AI (Mak-hos Thai Checkers)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-main: #090d16;
+      --card-bg: #111827;
+      --card-border: rgba(16, 185, 129, 0.25);
+      --emerald-bright: #10b981;
+      --emerald-light: #34d399;
+      --emerald-glow: rgba(16, 185, 129, 0.15);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent-amber: #f59e0b;
+      --accent-cyan: #06b6d4;
+      --accent-indigo: #818cf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Prompt', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 16px 48px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .header-card {
+      background: linear-gradient(135deg, rgba(6, 78, 59, 0.7) 0%, rgba(15, 23, 42, 0.95) 60%, rgba(17, 24, 39, 0.98) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px var(--emerald-glow);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+
+    .icon-box {
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--emerald-light);
+      flex-shrink: 0;
+    }
+
+    .icon-box svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .header-text h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #a7f3d0;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+    }
+
+    .header-text p {
+      font-size: 0.85rem;
+      color: rgba(167, 243, 208, 0.8);
+      margin-top: 4px;
+    }
+
+    .summary-badge {
+      background: rgba(6, 78, 59, 0.3);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .summary-badge svg {
+      width: 20px;
+      height: 20px;
+      color: var(--emerald-light);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .summary-badge h2 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #a7f3d0;
+      margin-bottom: 2px;
+    }
+
+    .summary-badge p {
+      font-size: 0.825rem;
+      color: rgba(167, 243, 208, 0.85);
+    }
+
+    .sections-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.85);
+      border: 1px solid rgba(51, 65, 85, 0.6);
+      border-radius: 16px;
+      padding: 20px 22px;
+      backdrop-filter: blur(8px);
+      transition: border-color 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .card-header svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    .card-header h3 {
+      font-size: 0.925rem;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+
+    .card p {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      text-align: justify;
+      line-height: 1.65;
+    }
+
+    .icon-emerald { color: #34d399; }
+    .icon-amber { color: #fbbf24; }
+    .icon-cyan { color: #38bdf8; }
+    .icon-indigo { color: #a5b4fc; }
+
+    .footer-card {
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid rgba(51, 65, 85, 0.5);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-top: 16px;
+    }
+
+    .footer-card h3 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+
+    .footer-card p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
+
+    .footer-meta {
+      border-top: 1px solid rgba(51, 65, 85, 0.6);
+      padding-top: 12px;
+      margin-top: 12px;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .badge-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--emerald-light);
+      font-size: 0.7rem;
+      font-weight: 500;
+      margin-top: 6px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 12px 32px;
+      }
+      .header-card {
+        padding: 20px 16px;
+        gap: 14px;
+      }
+      .icon-box {
+        width: 44px;
+        height: 44px;
+      }
+      .icon-box svg {
+        width: 22px;
+        height: 22px;
+      }
+      .header-text h1 {
+        font-size: 1.1rem;
+      }
+      .card {
+        padding: 16px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header-card">
+      <div class="icon-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="m9 12 2 2 4-4"/>
+        </svg>
+      </div>
+      <div class="header-text">
+        <h1>นโยบายความเป็นส่วนตัว (Privacy Policy)</h1>
+        <p>Mak-hos Thai Checkers Privacy &amp; Data Safety Policy</p>
+      </div>
+    </header>
+
+    <div class="summary-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="m9 12 2 2 4-4"/>
+      </svg>
+      <div>
+        <h2>นโยบายความเป็นส่วนตัวและข้อตกลงการใช้งาน (Privacy Policy &amp; Terms of Use)</h2>
+        <p>แอปพลิเคชัน <strong>หมากฮอสไทย AI (Mak-hos Thai Checkers &mdash; com.makhos.thaicheckers)</strong> ให้ความสำคัญสูงสุดกับความปลอดภัย ความเป็นส่วนตัว และความโปร่งใสของผู้เล่น</p>
+      </div>
+    </div>
+
+    <main class="sections-list">
+      <section class="card">
+        <div class="card-header">
+          <svg class="icon-emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          <h3>1. การไม่จัดเก็บข้อมูลส่วนบุคคล (Zero Personal Data Collection)</h3>
+        </div>
+        <p>
+          แอปพลิเคชันนี้ไม่มีเซิร์ฟเวอร์ภายนอก และไม่มีการรวบรวม บันทึก หรือจัดเก็บข้อมูลที่สามารถระบุตัวตนได้ (เช่น ชื่อ, อีเมล, รายชื่อติดต่อ หรือตำแหน่งที่อยู่) ข้อมูลเดียวที่เกิดขึ้นคือสถิติผลการเล่นและการตั้งค่า ซึ่งจะถูกบันทึกไว้ในหน่วยความจำเครื่อง (Local Storage) ของคุณเท่านั้น หากคุณลบแอปพลิเคชัน ข้อมูลเหล่านี้จะถูกลบทิ้งอย่างถาวรโดยอัตโนมัติ
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <svg class="icon-amber" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+            <path d="M12 18h.01"/>
+          </svg>
+          <h3>2. บริการโฆษณา (Third-Party Advertising)</h3>
+        </div>
+        <p>
+          แอปพลิเคชันนี้ใช้บริการโฆษณาแบนเนอร์จากเครือข่ายที่ได้มาตรฐาน (Google AdMob) ผู้ให้บริการโฆษณาอาจใช้รหัสระบุอุปกรณ์ที่ไม่ระบุชื่อ (Advertising ID) เพื่อแสดงโฆษณาที่เหมาะสม ผู้ใช้สามารถจัดการ ตั้งค่า หรือปิดกั้นการติดตามโฆษณาได้ด้วยตนเองโดยตรงผ่านการตั้งค่าบัญชี Google บนอุปกรณ์ของคุณ
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <svg class="icon-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+          </svg>
+          <h3>3. วัตถุประสงค์เพื่อความบันเทิง (Intended Use)</h3>
+        </div>
+        <p>
+          แอปพลิเคชันนี้จัดทำขึ้นเพื่อการฝึกสมอง ความบันเทิง และการพักผ่อนหย่อนใจเท่านั้น ระบบการเล่น แต้ม สถิติ หรือกระดานหมากภายในเกม เป็นเพียงองค์ประกอบสำหรับการประมวลผลเพื่อความสนุกสนานภายในแอปพลิเคชัน ไม่มีความเกี่ยวข้องกับมูลค่าทางการเงินจริง และไม่สามารถนำไปอ้างอิงเพื่อแลกเปลี่ยนเป็นทรัพย์สินหรือเงินสดใดๆ ได้
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <svg class="icon-emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <h3>4. นโยบายความเป็นส่วนตัวของเด็ก (Children’s Privacy)</h3>
+        </div>
+        <p>
+          แอปพลิเคชันนี้ออกแบบมาสำหรับผู้ใช้ทั่วไปที่มีอายุ 13 ปีขึ้นไป (General Audience 13+) โดยแอปพลิเคชันไม่มีระบบสมัครสมาชิก และไม่มีเจตนาในการเก็บรวบรวมข้อมูลส่วนบุคคลใดๆ จากเด็กที่มีอายุต่ำกว่า 13 ปี หรือผู้ใช้งานในทุกช่วงวัยอย่างเด็ดขาด
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <svg class="icon-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          <h3>5. ข้อสงวนสิทธิ์การใช้งาน (Disclaimer)</h3>
+        </div>
+        <p>
+          แอปพลิเคชันนี้ให้บริการตามสภาพ (AS-IS) ระบบทำงานบนอุปกรณ์ของผู้ใช้โดยตรง ผู้พัฒนาได้ตั้งใจและพยายามพัฒนาแอปพลิเคชันให้มีความปลอดภัยและเสถียรที่สุด อย่างไรก็ตาม ผู้พัฒนาขอสงวนสิทธิ์ไม่รับผิดชอบต่อความเสียหายทางเทคนิค หรือปัญหาอันเกิดจากปัจจัยภายนอก (เช่น สภาพอุปกรณ์ ฮาร์ดแวร์ของผู้ใช้ หรือเนื้อหาโฆษณาจากบุคคลที่สาม)
+        </p>
+      </section>
+
+      <section class="footer-card">
+        <h3>6. การติดต่อผู้พัฒนา (Feedback &amp; Support)</h3>
+        <p>
+          หากคุณพบข้อผิดพลาดของระบบเกม (Bug) หรือมีข้อเสนอแนะเพื่อช่วยพัฒนาปรับปรุงแอปพลิเคชันให้ดียิ่งขึ้น สามารถส่งความคิดเห็นหรือให้คะแนนได้ผ่านหน้ารายการแอปพลิเคชันบน Google Play Store หรือติดต่อทางอีเมลผู้พัฒนา
+        </p>
+        <p>
+          ผู้พัฒนาขอสงวนสิทธิ์ในการปรับปรุงนโยบายนี้ตามความเหมาะสมเพื่อให้สอดคล้องกับกฎเกณฑ์สากลและการพัฒนาแอปพลิเคชัน โดยจะระบุวันที่อัปเดตล่าสุดไว้เสมอ
+        </p>
+        <div>
+          <span class="badge-pill">Google Play &amp; Google AdMob Policy Compliant</span>
+        </div>
+        <div class="footer-meta">
+          <div>อัปเดตล่าสุด: พฤศจิกายน 2026 (November 2026)</div>
+          <div>© 2026 Theerawat (Mak-hos Thai Checkers AI). All rights reserved. สงวนลิขสิทธิ์ตามกฎหมาย</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
